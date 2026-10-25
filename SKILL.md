@@ -14,9 +14,9 @@ disable-model-invocation: true
 
 ## When to use / 适用时机
 
-**EN:** Use this skill to research recent sources (default window: the past month), synthesize insights with citations, plan a Chinese blog title and outline, then write the full post. Trigger on: research blog, 调研写作, insight 整合, 近一个月文献/博客调研, Chinese technical or industry blog from recent sources.
+**EN:** Use this skill to research recent sources, synthesize insights with citations, plan a Chinese blog title and outline, then write the full post. Trigger on: research blog, 调研写作, insight 整合, 近一个月文献/博客调研, Chinese technical or industry blog from recent sources.
 
-**中文：** 用于「近一个月（可覆盖）文献与行业文字调研 → 规划标题与章节 → 撰写中文 blog」。触发词见上。
+**中文：** 用于「文献与行业文字调研 → 规划标题与章节 → 撰写中文 blog」。触发词见上。
 
 ## Workflow / 工作流
 
@@ -26,7 +26,13 @@ disable-model-invocation: true
 
 ## 1. 调研
 
-进行广泛的调研，着眼于距离当前一个月以内的文章，包括但不限于：
+### 1.1 当用户上传/指定了材料，或限制只依据给定的材料撰写时
+
+仔细通读并理解用户列出的材料内容。
+
+### 1.2 当用户没有上传/指定材料，或明确要求进行调研时
+
+进行广泛的调研，了解该领域/行业的巨头（包括公司与个人），着眼于该领域/行业具有极高价值、影响力的文章以及距离当前一个月以内的新兴高质量文章，包括但不限于：
 
 - 高质量论文（需要核验，核验方式为观察该论文作者或作者组织是否为该行业大牛）
 - 该行业巨头的公司的博客，以及博客下的引文或文中提到的文章（如有）
